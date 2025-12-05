@@ -311,7 +311,7 @@ footer img {
     margin: 0.625rem;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 400px) {
     .Hnav {
         flex-direction: row;
         gap: 1rem;
@@ -413,4 +413,5 @@ footer img {
         border: solid;
         margin: 0.625rem;
     }
+
 }
