@@ -1,0 +1,519 @@
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    body {
+        margin: 0;
+        background-color: azure;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        border-radius: 1rem;
+        display: inline-block;
+    }
+
+    .logo {
+        text-align: center;
+        margin-bottom: 0.5rem;
+        padding-top: 1rem;
+        background-color: white;
+        box-shadow: 0 0.3125rem 0.3125rem rgba(0, 0, 0, 0.288);
+    }
+
+    .logo img {
+        width: 8rem;
+        height: auto;
+    }
+
+    .logo h1 {
+        margin-bottom: -0.625rem;
+        margin-top: 0;
+        padding-top: 1rem;
+    }
+
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    .Hnav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: goldenrod;
+        padding: 0.5rem 5%;
+        border-radius: 1rem;
+        width: 99%;
+        margin: 0 auto;
+        margin-bottom: 0.5rem;
+        box-sizing: border-box;
+        box-shadow: 0 0.3125rem 0.3125rem rgba(0, 0, 0, 0.288);
+    }
+
+    .navLeft,
+    .navRight {
+        display: flex;
+        gap: 4rem;
+        align-items: center;
+    }
+
+    .navActive {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 0.5rem;
+        margin: -0.625rem;
+        border-radius: 1rem;
+    }
+
+    .navLeft a,
+    .navRight a {
+        transition: 0.2s ease;
+    }
+
+    .navLeft a:hover,
+    .navRight a:hover {
+        background-color: rgba(255, 255, 255, 0.25);
+        color: teal;
+        padding: 0.5rem;
+        margin: -0.5rem;
+        border-radius: 1rem;
+        transform: scale(1.05);
+    }
+
+    main {
+        padding-top: 7.5rem;
+    }
+
+    .home {
+        padding-top: 5rem;
+    }
+
+    .tile {
+        background-image: url("https://wallpapertag.com/wallpaper/full/0/c/e/130363-download-free-shiny-gold-background-1920x1200.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: auto;
+        margin: 0;
+        padding: 10rem;
+        position: relative;
+        color: white;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .tile h1 {
+        font-size: 6.25rem;
+        margin-bottom: -0.625rem;
+    }
+
+    .tile p {
+        font-size: 1.5rem;
+    }
+
+    .divider p {
+        text-align: center;
+        font-size: 1.2rem;
+        font-style: italic;
+        font-weight: bold;
+    }
+
+    article img {
+        width: 15rem;
+        height: 10rem;
+        border-radius: 1rem;
+    }
+
+    .top-articles {
+        background-color: rgb(255, 227, 67);
+        box-shadow: 0 0.3125rem 0.3125rem rgba(0, 0, 0, 0.288);
+        border-radius: 1rem;
+        padding: 1rem;
+        margin: 1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 5rem;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    article a {
+        max-width: 18rem;
+        color: black;
+        display: flex;
+        padding: 1rem;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        transition: 0.2s ease;
+    }
+
+    article a:hover {
+        color: teal;
+        background-color: rgba(80, 80, 80, 0.25);
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+
+    article p {
+        max-width: 75%;
+        text-align: center;
+    }
+
+    .lower-content {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .Sb img {
+        width: 10rem;
+        height: 10rem;
+        border-radius: 1rem;
+    }
+
+    aside {
+        background-color: rgb(255, 227, 67);
+        box-shadow: 0 0.3125rem 0.3125rem rgba(0, 0, 0, 0.288);
+        border-radius: 1rem;
+        padding: 1rem;
+        margin: 1rem;
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        gap: 15%;
+    }
+
+    aside h2 {
+        text-align: center;
+        color: teal;
+    }
+
+    .Sb {
+        color: black;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+        transition: 0.2s ease;
+    }
+
+    .Sb:hover {
+        color: teal;
+        background-color: rgba(80, 80, 80, 0.25);
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+
+    .sbContent1 {
+        margin-bottom: 5rem;
+    }
+
+    .LContent {
+        width: 75%;
+    }
+
+    .LContent article {
+        background-color: rgb(255, 227, 67);
+        box-shadow: 0 0.3125rem 0.3125rem rgba(0, 0, 0, 0.288);
+        border-radius: 1rem;
+        padding: 1rem;
+        margin: 1rem;
+        display: block;
+    }
+
+    article h2 {
+        color: teal;
+    }
+
+    .LC img {
+        max-width: 12rem;
+        width: 100%;
+        height: auto;
+        border-radius: 1rem;
+    }
+
+    .LCs {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20%;
+    }
+
+    .LC {
+        color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+        transition: 0.2s ease;
+    }
+
+    .LC:hover {
+        color: teal;
+        background-color: rgba(80, 80, 80, 0.25);
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+
+    .LContent article h2 {
+        text-align: left;
+        margin-left: 1rem;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        font-weight: bold;
+    }
+
+    .info {
+        font-size: 1.3rem;
+        padding: 5rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .motto {
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: teal;
+    }
+
+    .motto p {
+        padding: 3rem;
+        background-color: rgb(255, 227, 67);
+        border-radius: 1rem;
+        box-shadow: 0 0.3125rem 0.3125rem rgba(0, 0, 0, 0.288);
+    }
+
+    .about2 h2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: -0.4rem;
+    }
+
+    .about3 {
+        margin: 5rem auto;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .people1,
+    .people2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5rem;
+    }
+
+    .people1 img,
+    .people2 img {
+        max-width: 15rem;
+        max-height: 15rem;
+        height: 100%;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 1rem;
+        box-shadow: 0 0.3125rem 0.3125rem rgba(0, 0, 0, 0.288)
+    }
+
+    .person {
+        width: 100%;
+        max-width: 17rem;
+        padding: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgb(255, 227, 67);
+        border-radius: 1rem;
+        box-shadow: 0 0.3125rem 0.3125rem rgba(0, 0, 0, 0.288);
+    }
+
+    .pInfo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .pInfo p {
+        padding: 1rem;
+        text-align: justify;
+    }
+
+    .pInfo h3 {
+        font-weight: bold;
+        font-style: italic;
+        font-size: 1.5rem;
+        margin-bottom: -1rem;
+    }
+
+    footer {
+        border-style: solid;
+        border-width: 0.0625rem;
+        margin: 0;
+        padding: 0.625rem;
+        display: flex;
+        gap: 2.5rem;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .Fnav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .Fnav a {
+        padding: 0.5rem;
+        color: black;
+        border-radius: 0.5rem;
+        transition: 0.3s ease;
+    }
+
+    .Fnav a:hover {
+        padding: 0.5rem;
+        color: rgb(255, 255, 255);
+        background-color: rgb(133, 133, 133);
+        transform: scale(1.05);
+    }
+
+    footer img {
+        width: 6.25rem;
+        border: solid;
+        margin: 0.625rem;
+    }
+
+    @media (max-width: 900px) {
+
+        .Hnav {
+            flex-direction: row;
+            gap: 1rem;
+        }
+
+        .navLeft,
+        .navRight {
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+
+        header {
+            position: fixed;
+        }
+
+        .top-articles {
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        article img {
+            width: 100%;
+            height: auto;
+            max-width: 18rem;
+        }
+
+        .people1,
+        .people2 {
+            flex-direction: column;
+            gap: 3rem;
+        }
+
+        .person {
+            max-width: 20rem;
+            width: 90%;
+        }
+
+        .tile {
+            padding: 4rem 1rem;
+        }
+
+        .tile h1 {
+            font-size: 3rem;
+        }
+
+        .tile p {
+            font-size: 1rem;
+        }
+
+        footer {
+            border-style: solid;
+            border-width: 0.0625rem;
+            margin: 0;
+            padding: 0.625rem;
+            display: flex;
+            gap: 2.5rem;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .Fnav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        footer img {
+            width: 4.25rem;
+            border: solid;
+            margin: 0.625rem;
+        }
+
+        .lower-content {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        aside {
+            width: 90%;
+            margin-bottom: 1rem;
+        }
+
+        .LContent {
+            width: 95%;
+        }
+
+        .LCs {
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        .Sb img {
+            width: 6rem;
+            height: 6rem;
+        }
+
+    }
